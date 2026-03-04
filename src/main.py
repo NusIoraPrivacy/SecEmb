@@ -22,11 +22,7 @@ import numpy as np
 import torch
 
 from .model import ModelConfig
-from .optimized_protocol import (
-    SecEmbServerParty,
-    TrainingConfig,
-    secemb_round,
-)
+from .protocol import SecEmbServerParty, TrainingConfig, secemb_round
 
 
 def load_movielens_100k(

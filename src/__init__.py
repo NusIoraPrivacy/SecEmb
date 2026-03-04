@@ -22,7 +22,10 @@ from .protocol import (
     SecEmbServer,
     SecEmbClient,
     SecureAggregator,
+    LegacyTrainingConfig,
+    SecEmbServerParty,
     TrainingConfig,
+    secemb_round,
 )
 
 __all__ = [
@@ -30,6 +33,9 @@ __all__ = [
     "SecEmbServer",
     "SecEmbClient",
     "SecureAggregator",
+    "LegacyTrainingConfig",
+    "SecEmbServerParty",
+    "secemb_round",
     "TrainingConfig",
 ]
 
